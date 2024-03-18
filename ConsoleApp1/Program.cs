@@ -4,7 +4,6 @@ Console.WriteLine("Hello, User!!");
 int[] arr = {3,2,5,6,8,12,123};
 Console.WriteLine("Function get average");
 Console.WriteLine(GetAvg(arr));
-asfdsdf
 static double GetAvg(int[] arr)
 {
     int sum = 0;
