@@ -1,9 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 Console.WriteLine("Hello, User!!");
-int[] arr = {1,2,3,4,5};
+int[] arr = {3,2,5,6,8,12,123};
+Console.WriteLine("Function get average");
 Console.WriteLine(GetAvg(arr));
-
+asfdsdf
 static double GetAvg(int[] arr)
 {
     int sum = 0;
