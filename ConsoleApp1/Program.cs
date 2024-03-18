@@ -6,11 +6,11 @@ Console.WriteLine("Function get average");
 Console.WriteLine(GetAvg(arr));
 static double GetAvg(int[] arr)
 {
-    int sum = 0;
+    int sum1 = 0;
     foreach (var num in arr)
     {
-        sum += num;
+        sum1 += num;
     }
 
-    return (double)sum / arr.Length;
+    return (double)sum1 / arr.Length;
 }
